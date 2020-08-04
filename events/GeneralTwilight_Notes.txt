@@ -1,0 +1,22 @@
+### Changed Events:
+###
+###	SolarEmpire.txt:
+###		solarempire.17
+###		solarempire.18
+###		solarempire.19
+###		solarempire.21
+###		solarempire.22
+###		solarempire.25
+###		solarempire.26
+###
+###	CrystalEmpire.txt:
+###		crysom.40
+###		crysom.44
+###
+###	EawNewsEvents.txt:
+###		news.38
+###
+### Notes:
+###  "unlock_national_focus" doesn't add line break in tooltip after
+###  "add_ideas" adds line break in tooltip after
+###  "effect_tooltip" or at least "set_nationality" adds line break in tooltip after

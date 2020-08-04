@@ -1,0 +1,15 @@
+TWI_create_general_twilight = {
+	create_corps_commander = {
+		name = "Twilight Sparkle"
+		id = 12321
+		portrait_path = "gfx/leaders/TWI/TwilightSparkle.tga"
+		traits = { pony_race_trait organizer skilled_staffer }
+		skill = 2
+		female = yes
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 5
+		desc = "TWI_twilight_desc"
+	}
+}

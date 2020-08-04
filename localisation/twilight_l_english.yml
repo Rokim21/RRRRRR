@@ -1,0 +1,17 @@
+﻿l_english:
+
+
+ twilight.1.t:0 "Princess of Friendship off to War"
+ twilight.1.d:0 ""Spike?"\n "Yeah, Twilight?"\n "Remember when you told me I could use my skills on the frontline?"\n There was a pause. "Yeah"\n "I've decided that you were right, and I can't stay here at the castle any longer."\n "Oh, um—"\n Not hearing Spike, Twilight continued. "I was scared of being responsible for so many ponies, but... the battle reports keep coming, and it's been over two years since the war started. Even if I'm scared to take command, if I help save more if I do than if I didn't, I guess it'll be worth it."\n "Yeah, the sum or whatever you call it."\n Twilight smiled. "Yes, the sum. And if you think about it, whenever we went on our adventures with our friends, we were always responsible for saving the entirety of Equestria anyway, and this is just more... obvious."\n There was a silence as the two thought of what to say. Then, Spike ran towards Twilight and hugged her. "Just stay safe okay, Twilight? When you get back with the others, we can have a simple picnic like old times."\n A tear ran down Twilight's cheek as she hugged him back. "Yes, Spike. We can have a picnic.""
+ twilight.1.a:0 "The Magic of Friendship still lives on."
+
+ TWI_twilight_desc:0 "The Princess of Friendship. Before her ascension to royalty, Twilight Sparkle was a brilliant academic and bookworm, with considerable skills in organization and planning – skills useful for a general."
+
+ twilight.2.t:0 "Twilight Sparkle, Regent of the Crystal Empire"
+ twilight.2.d:0 "[This.GetNewspaperHeader]After the loss of Princess Cadance to Sombra, the Crystal Empire has been without a ruler. Princess Flurry Heart is still too young to rule, and in her stead [Root.GetName]'s faithful Twilight Sparkle has been sent as regent for the time being."
+ twilight.2.a:0 "We await her return"
+ 
+ general_twilight_returns:0 "§YTwilight Sparkle§! returns from ruling the Crystal Empire and is available as a commander"
+ general_twilight_asylum:0 "§YTwilight Sparkle§! can serve as a commander for our forces"
+ general_twilight_escaped:0 "The traitorous commander §YTwilight Sparkle§! escapes"
+ general_twilight_erased:0 "§YTwilight Sparkle§! is no longer fit for command duty"

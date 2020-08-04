@@ -1,0 +1,59 @@
+add_namespace = twilight
+
+
+
+country_event = {
+	id = twilight.0
+	hidden = yes
+
+	is_triggered_only = yes
+	trigger = {
+		has_war_with = CHN
+		has_government = democratic
+		NOT = { has_global_flag = SOL_twilight_converted }
+		NOT = { has_global_flag = twilight_CRY_regent }
+	}
+
+	immediate = {
+		country_event = { id = twilight.1 }
+	}
+}
+
+
+country_event = {
+	id = twilight.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event twilight.1"}
+	title = twilight.1.t
+	desc = twilight.1.d
+	picture = GFX_event_pony_soldiers_sunset
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = twilight.1.a
+		TWI_create_general_twilight = yes
+		hidden_effect = {
+			random_army_leader = {
+				limit = { has_id = 12321 }
+				save_global_event_target_as = TWI_Twilight_Sparkle
+			}
+		}
+	}
+}
+
+news_event = {
+	id = twilight.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event twilight.2"}
+	title = twilight.2.t
+	desc = twilight.2.d
+	picture = GFX_news_event_crystal_fair
+	is_triggered_only = yes
+
+	option = {
+		name = twilight.2.a
+		effect_tooltip = {
+			event_target:TWI_Twilight_Sparkle = { set_nationality = FROM }
+		}
+	}
+}

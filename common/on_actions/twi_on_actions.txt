@@ -1,0 +1,43 @@
+on_actions = {
+
+	on_declare_war = {
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = EQS
+					}
+					if = {
+						limit = {
+							FROM = { original_tag = CHN }
+						}
+						country_event = {
+							id = twilight.0
+							days = 730
+							random = 72
+						}
+					}
+				}
+				if = {
+					limit = { tag = CHN }
+					if = {
+						limit = {
+							NOT = { has_global_flag = the_war }
+							FROM = {
+								original_tag = EQS
+							}
+						}
+						EQS = {
+							country_event = {
+								id = twilight.0
+								days = 730
+								random = 72
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
